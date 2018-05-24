@@ -1,0 +1,156 @@
+[
+  {
+    "column": "元素",
+    "name": "element",
+    "ico": "glyphicons-flower",
+    "menu": [
+      {
+        "title": "字体图标",
+        "icoName": "glyphicons-font",
+        "icoColor": "text-info",
+        "description": "点击所选图标，就可将其粘贴至所需之处，前提是先引入其CSS！",
+        "link": "font.html"
+      },
+      {
+        "title": "网格系统",
+        "icoName": "glyphicons-dice-6",
+        "icoColor": "text-muted",
+        "description": "通过一系列的行（row）与列（column）组合来创建页面布局。",
+        "link": "grid.html"
+      },
+      {
+        "title": "表单",
+        "icoName": "glyphicons-notes",
+        "icoColor": "text-info",
+        "description": "列出了比较常见的几种排列方式和单（多）项选择框的自定义方法。",
+        "link": "form.html"
+      },
+      {
+        "title": "表格",
+        "icoName": "glyphicons-table",
+        "icoColor": "text-muted",
+        "description": "罗列了表格常用类及其所代表的意义，并在页面中做了相应的展示。",
+        "link": "table.html"
+      },
+      {
+        "title": "辅助类",
+        "icoName": "glyphicons-beach-umbrella",
+        "icoColor": "text-success",
+        "description": "罗列了那些不被注意但又经常用到的类，包括文字、背景和浮动等。",
+        "link": "assist.html"
+      },
+      {
+        "title": "按钮",
+        "icoName": "glyphicons-hand-up",
+        "icoColor": "text-primary",
+        "description": "罗列了按钮的几种常见类及其大小控制类，包括按钮组的定义方法。",
+        "link": "button.html"
+      }
+    ]
+  },
+  {
+    "column": "BT相关插件",
+    "name": "plugins",
+    "ico": "glyphicons-magic",
+    "menu": [
+      {
+        "title": "Select控件",
+        "icoName": "glyphicons-list-alt",
+        "icoColor": "text-muted",
+        "description": "下拉框选择插件，功能强大；提供单选和多选及其它实用功能等。",
+        "link": "select.html"
+      },
+      {
+        "title": "Tab插件",
+        "icoName": "glyphicons-puzzle",
+        "icoColor": "text-success",
+        "description": "此为Bootstrap的标签切换插件，调用简单，可以剥离出来单独使用。",
+        "link": "tab.html"
+      },
+      {
+        "title": "scrollSpy",
+        "icoName": "glyphicons-mouse-scroll",
+        "icoColor": "text-warning",
+        "description": "此为Bootstrap的滚动监听插件，调用简单，可以剥离出来单独使用。",
+        "link": "scrollSpy.html"
+      },
+      {
+        "title": "Affix粘附导航",
+        "icoName": "glyphicons-lasso",
+        "icoColor": "text-warning",
+        "description": "此为Bootstrap的粘附导航插件，调用简单，可以剥离出来单独使用。",
+        "link": "Affix.html"
+      },
+      {
+        "title": "Tour引导插件",
+        "icoName": "glyphicons-nearby-square",
+        "icoColor": "text-primary",
+        "description": "可不依赖Bootstrap，单独拿后缀名带有standalone的JS和CSS使用。",
+        "link": "tour.html"
+      }
+    ]
+  },
+  {
+    "column": "第三方插件",
+    "name": "third",
+    "ico": "glyphicons-puzzle-2",
+    "menu": [
+      {
+        "title": "AutoComplete",
+        "icoName": "glyphicons-drop",
+        "icoColor": "text-success",
+        "description": "自动补全插件，兼容Chrome/IE/Firefox/Opera/Safari等浏览器。",
+        "link": "AutoComplete.html"
+      },
+      {
+        "title": "日历插件",
+        "icoName": "glyphicons-calendar",
+        "icoColor": "text-danger",
+        "description": "Bootstrap自有插件，本站进行了JS和CSS完全分离，可直接使用！",
+        "link": "calendar.html"
+      },
+      {
+        "title": "Layer弹层组件",
+        "icoName": "glyphicons-new-window-alt",
+        "icoColor": "text-info",
+        "description": "近年来备受青睐的web弹层组件，以更少的代码展现更强健的功能。",
+        "link": "layer.html"
+      },
+      {
+        "title": "SuperSlide",
+        "icoName": "glyphicons-transfer",
+        "icoColor": "text-default",
+        "description": "致力于解决网站大部分特效展示问题，使其规范整洁，方便维护更新。",
+        "link": "SuperSlide.html"
+      },
+      {
+        "title": "右键菜单",
+        "icoName": "glyphicons-list",
+        "icoColor": "text-primary",
+        "description": "单独JS和CSS，可自定义标题、图标样式（可选）和对应功能操作！",
+        "link": "smartMenu.html"
+      },
+      {
+        "title": "二维码插件",
+        "icoName": "glyphicons-qrcode",
+        "icoColor": "text-success",
+        "description": "能够生成矩阵二维码的jQ插件！支持IE9+及其它高版本浏览器。",
+        "link": "QRCode.html"
+      },
+      {
+        "title": "niceScroll",
+        "icoName": "glyphicons-reflect-y",
+        "icoColor": "text-info",
+        "description": "第三方滚动条插件，提供了较多用户可自定义的参数，值得拥有。",
+        "link": "niceScroll.html"
+      },
+      {
+        "title": "ZeroClipboard",
+        "icoName": "glyphicons-duplicate",
+        "icoColor": "text-muted",
+        "description": "国外大神开发基于Flash来实现跨浏览器的用于剪贴板复制的插件。",
+        "link": "zeroClipboard.html"
+      }
+    ]
+  }
+]

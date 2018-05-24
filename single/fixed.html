@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="Hennes,Project,插件,字体图标,select控件,日历控件,右键菜单,bootstrap">
+    <meta name="description" content="HennesProject是一个集bootstrap模板和实用插件运用为展示的平台">
+    <meta name="Author" Content="Hennes，Email：hsokio@qq.com；Home：https://hennes1.github.io/hennes/">
+    <title>固定头部 - HennesProject</title>
+    <link rel="stylesheet" href="../css/bootStrap/bootStrap.min.css">
+    <link rel="stylesheet" href="../css/glyphicons/glyphicons.min.css">
+    <link rel="stylesheet" href="../css/single.css">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" id="single_hd"></div>
+    </nav>
+    <!--/ navbar end -->
+
+    <!--{ carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"></div>
+    <!--/ carousel } -->
+
+    <div class="wrap full-wrap loading"></div>
+    <div class="footer"></div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/plugins/jquery.lazyload.js"></script>
+    <script src="../js/single.js"></script>
+    <script>
+        $('#myCarousel').showCarousel({
+            asBg: true,
+            asText: false,
+            slide: [
+                { url: 'javascript:void(0);', image: '../images/carousel/01.jpg', bgColor: '#b1b5a7'},
+                { url: 'javascript:void(0);', image: '../images/carousel/02.jpg', bgColor: '#f7f7f7'},
+                { url: 'javascript:void(0);', image: '../images/carousel/03.jpg', bgColor: '#b0a48a', active: true}
+            ]
+        });
+
+        $(window).on('load', function () {
+            //加载数据
+            HennesSingle.singleData('.wrap');
+
+            //加载头部
+            HennesSingle.loadSingleHead('#single_hd', 'sg_3');
+
+            //加载Footer
+            HennesSingle.loadSingleFoot();
+        });
+    </script>
+</body>
+</html>

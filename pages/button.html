@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="Hennes,Project,插件,字体图标,select控件,日历控件,右键菜单,bootstrap">
+    <meta name="description" content="HennesProject是一个集bootstrap模板和实用插件运用为展示的平台">
+    <meta name="Author" Content="Hennes，Email：hsokio@qq.com；Home：https://hennes1.github.io/hennes/">
+    <title>按钮 - HennesProject</title>
+    <link rel="stylesheet" href="../css/bootStrap/bootStrap.min.css">
+    <link rel="stylesheet" href="../css/glyphicons/glyphicons.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="hennes-body">
+    <nav class="navbar navbar-fixed-top head-nav">
+        <div class="container-fluid hd-loading" id="header_nav"></div>
+    </nav>
+    <aside class="aside sd-loading" id="side_nav"></aside>
+    <div class="container-fluid main-wrap show-side" id="H_main">
+        <ol class="breadcrumb current-page">
+            <li><a href="/hennes/"><i class="glyphicons glyphicons-home fn-mr-5"></i>首页</a></li>
+            <li>元素</li>
+            <li class="active">按钮</li>
+        </ol>
+        <!-- { panel -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><i class="glyphicons glyphicons-hand-up fn-mr-10"></i>按钮</h4>
+            </div>
+            <div class="panel-body">
+                <h3>基本按钮类</h3>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th width="20%">类</th>
+                        <th>说明</th>
+                        <th width="35%">例子</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>.btn</td>
+                        <td>按钮基本类，必不可少</td>
+                        <td><button class="btn">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-default</td>
+                        <td>默认/标准按钮类</td>
+                        <td><button class="btn btn-default">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-primary</td>
+                        <td>原始按钮类（未被操作）</td>
+                        <td><button class="btn btn-primary">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-success</td>
+                        <td>成功按钮类</td>
+                        <td><button class="btn btn-success">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-info</td>
+                        <td>可用于要弹出信息的按钮</td>
+                        <td><button class="btn btn-info">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-warning</td>
+                        <td>表示需要谨慎操作的按钮</td>
+                        <td><button class="btn btn-warning">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-danger</td>
+                        <td>表示一个危险动作的按钮</td>
+                        <td><button class="btn btn-danger">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-group</td>
+                        <td>表示一组按钮容器</td>
+                        <td>
+                            <div class="btn-group">
+                                <button class="btn btn-default">Button</button>
+                                <button class="btn btn-default">Button</button>
+                                <button class="btn btn-default">Button</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>.btn-link</td>
+                        <td>让按钮看起来像个链接 (仍然保留按钮行为)</td>
+                        <td><button class="btn-link">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.active</td>
+                        <td>按钮被点击，适合所有按钮</td>
+                        <td><button class="btn active">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.disabled</td>
+                        <td>禁用按钮，适合所有按钮</td>
+                        <td><button class="btn disabled">Button</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h3>按钮大小</h3>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th width="20%">类</th>
+                        <th>说明</th>
+                        <th width="20%">例子</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>.btn-lg</td>
+                        <td>相对较大的按钮</td>
+                        <td><button class="btn btn-default btn-lg">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-sm</td>
+                        <td>相对较小的按钮</td>
+                        <td><button class="btn btn-default btn-sm">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-xs</td>
+                        <td>相对很小的按钮</td>
+                        <td><button class="btn btn-default btn-xs">Button</button></td>
+                    </tr>
+                    <tr>
+                        <td>.btn-block</td>
+                        <td>块级按钮，会横跨元素的全部宽度</td>
+                        <td><button class="btn btn-default btn-block">Button</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--/ panel }-->
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/plugins/niceScroll/jquery.nicescroll.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+        $(function () {
+            //当前页
+            Hennes.loadNav('../', 'header', 'side_nav1_6');
+        });
+    </script>
+</body>
+</html>
